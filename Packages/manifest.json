@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.unity.recorder": "2.5.4",
     "com.unity.render-pipelines.high-definition": "11.0.0",
     "com.unity.timeline": "1.5.2",
     "com.unity.modules.jsonserialize": "1.0.0"
