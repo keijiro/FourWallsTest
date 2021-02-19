@@ -626,11 +626,11 @@ GameObject:
   - component: {fileID: 624966650}
   m_Layer: 0
   m_Name: Left
-  m_TagString: Left
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &624966649
 Transform:
   m_ObjectHideFlags: 0
@@ -950,7 +950,7 @@ GameObject:
   - component: {fileID: 1129220160}
   m_Layer: 0
   m_Name: Right
-  m_TagString: Right
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1434,12 +1434,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1307291564}
   m_Layer: 0
-  m_Name: View1
+  m_Name: Split Views
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1307291564
 Transform:
   m_ObjectHideFlags: 0
@@ -1635,11 +1635,11 @@ GameObject:
   - component: {fileID: 1574935470}
   m_Layer: 0
   m_Name: Bottom
-  m_TagString: Bottom
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1574935469
 Transform:
   m_ObjectHideFlags: 0
@@ -2078,7 +2078,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1843413775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2728,11 +2728,11 @@ GameObject:
   - component: {fileID: 2126898685}
   m_Layer: 0
   m_Name: Center
-  m_TagString: Center
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2126898684
 Transform:
   m_ObjectHideFlags: 0

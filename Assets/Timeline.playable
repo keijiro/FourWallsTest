@@ -139,7 +139,7 @@ MonoBehaviour:
     m_Start: 25
     m_ClipIn: 0
     m_Asset: {fileID: 9125576293209960890}
-    m_Duration: 15
+    m_Duration: 17
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7875529284019872598}
     m_EaseInDuration: 0
@@ -1325,7 +1325,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 6397296833995743089}
-    m_Duration: 40
+    m_Duration: 42
     m_TimeScale: 1
     m_ParentTrack: {fileID: -5434851746504273149}
     m_EaseInDuration: 0
@@ -1532,7 +1532,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 8
+  take: 11
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -1540,7 +1540,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: View1Center
+    m_FileName: SplitCenter
   outputFormat: 0
   videoBitRateMode: 2
   captureAlpha: 0
@@ -1575,7 +1575,7 @@ MonoBehaviour:
           m_CustomAspectX: 1
           m_CustomAspectY: 1
           m_ImageAspect: 1
-      source: 4
+      source: 2
       cameraTag: Center
       flipFinalOutput: 0
       captureUI: 0
@@ -1821,7 +1821,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 6
+  take: 7
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -1829,7 +1829,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: View1Right
+    m_FileName: SplitRight
   outputFormat: 0
   videoBitRateMode: 2
   captureAlpha: 0
@@ -1864,7 +1864,7 @@ MonoBehaviour:
           m_CustomAspectX: 1
           m_CustomAspectY: 1
           m_ImageAspect: 1
-      source: 4
+      source: 2
       cameraTag: Right
       flipFinalOutput: 0
       captureUI: 0
@@ -2049,7 +2049,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -180325942815677871}
-    m_Duration: 40
+    m_Duration: 42
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2090868121261276692}
     m_EaseInDuration: 0
@@ -2141,7 +2141,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 4
+  take: 7
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -2149,7 +2149,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: View1Bottom
+    m_FileName: SplitBottom
   outputFormat: 0
   videoBitRateMode: 2
   captureAlpha: 0
@@ -2184,7 +2184,7 @@ MonoBehaviour:
           m_CustomAspectX: 1
           m_CustomAspectY: 1
           m_ImageAspect: 1
-      source: 4
+      source: 2
       cameraTag: Bottom
       flipFinalOutput: 0
       captureUI: 0
@@ -3896,7 +3896,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -3906,7 +3906,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -5411619310155390428}
-    m_Duration: 40
+    m_Duration: 42
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5822996889745472928}
     m_EaseInDuration: 0
@@ -4359,7 +4359,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 4437945918296526625}
@@ -4369,7 +4369,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 5314477048584369796}
-    m_Duration: 40
+    m_Duration: 42
     m_TimeScale: 1
     m_ParentTrack: {fileID: 7315733405801208828}
     m_EaseInDuration: 0
@@ -4449,7 +4449,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 5
+  take: 6
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -4457,7 +4457,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: View1Left
+    m_FileName: SplitLeft
   outputFormat: 0
   videoBitRateMode: 2
   captureAlpha: 0
@@ -4492,7 +4492,7 @@ MonoBehaviour:
           m_CustomAspectX: 1
           m_CustomAspectY: 1
           m_ImageAspect: 1
-      source: 4
+      source: 2
       cameraTag: Left
       flipFinalOutput: 0
       captureUI: 0
@@ -4551,7 +4551,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -7129119937259571704}
-    m_Duration: 40
+    m_Duration: 42
     m_TimeScale: 1
     m_ParentTrack: {fileID: 7419609429423219177}
     m_EaseInDuration: 0
