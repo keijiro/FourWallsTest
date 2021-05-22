@@ -57,7 +57,7 @@ MonoBehaviour:
   m_ImportDependencies: []
   m_GraphVersion: 7
   m_ResourceVersion: 1
-  m_saved: 0
+  m_saved: 1
   m_SubgraphDependencies:
   - {fileID: 5371698745253816930, guid: ba1d042665675314681dfcbf71a330cf, type: 3}
   - {fileID: 5371698745253816930, guid: 55122d44289cc5843ba0e6faf1e80ce6, type: 3}
@@ -3029,7 +3029,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.03
+      m_SerializableObject: 0.02
     m_Space: 2147483647
   m_Property:
     name: Size
@@ -4078,7 +4078,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":0.4905660152435303,"g":0.46234890818595889,"b":0.2938767969608307,"a":1.0}'
+      m_SerializableObject: '{"r":0.40566039085388186,"g":0.38235408067703249,"b":0.23918654024600984,"a":1.0}'
     m_Space: 2147483647
   m_Property:
     name: Base Color
@@ -4248,7 +4248,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":43.940574645996097,"g":33.35886001586914,"b":18.446748733520509,"a":1.0}'
+      m_SerializableObject: '{"r":47.937255859375,"g":38.90196228027344,"b":25.34902000427246,"a":1.0}'
     m_Space: 2147483647
   m_Property:
     name: Flash Color
