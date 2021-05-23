@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e12e84e1766b64919984e8b1ecd65226, type: 3}
   m_Name: Aqua
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   opacity:
     m_OverrideState: 1
     m_Value: 1
