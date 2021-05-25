@@ -4308,7 +4308,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.5471698045730591,"g":0.5471698045730591,"b":0.5471698045730591,"a":1.0},"time":0.0},{"color":{"r":1.3041188716888428,"g":1.3041188716888428,"b":1.3041188716888428,"a":1.0},"time":0.652948796749115},{"color":{"r":102.75575256347656,"g":102.75575256347656,"b":102.75575256347656,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.5471698045730591,"g":0.5471698045730591,"b":0.5471698045730591,"a":1.0},"time":0.0},{"color":{"r":1.3041188716888428,"g":1.3041188716888428,"b":1.3041188716888428,"a":1.0},"time":0.652948796749115},{"color":{"r":33.896759033203128,"g":33.896759033203128,"b":33.896759033203128,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: Color
@@ -7529,7 +7529,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":-4.0,"y":-1.2000000476837159,"z":-4.0}}'
+      m_SerializableObject: '{"position":{"x":-4.0,"y":0.0,"z":-4.0}}'
     m_Space: 0
   m_Property:
     name: A
