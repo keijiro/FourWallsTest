@@ -6376,7 +6376,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":-8.0,"y":-5.0,"z":-2.0}}'
+      m_SerializableObject: '{"position":{"x":-6.0,"y":-4.0,"z":-2.0}}'
     m_Space: 0
   m_Property:
     name: A
@@ -6546,7 +6546,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":8.0,"y":2.0,"z":8.0}}'
+      m_SerializableObject: '{"position":{"x":6.0,"y":4.0,"z":8.0}}'
     m_Space: 0
   m_Property:
     name: B
@@ -9264,7 +9264,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":1.0,"y":0.4000000059604645,"z":1.0}'
+      m_SerializableObject: '{"x":0.800000011920929,"y":0.800000011920929,"z":0.800000011920929}'
     m_Space: 2147483647
   m_Property:
     name: 
@@ -12762,7 +12762,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: -4
+      m_SerializableObject: -2
     m_Space: 2147483647
   m_Property:
     name: min
@@ -12796,7 +12796,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 4
+      m_SerializableObject: 2
     m_Space: 2147483647
   m_Property:
     name: max
@@ -13831,7 +13831,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 
+      m_SerializableObject: 0
     m_Space: 2147483647
   m_Property:
     name: 

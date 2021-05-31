@@ -97,8 +97,8 @@ VisualEffectResource:
       lightProbeUsage: 0
     m_CullingFlags: 3
     m_UpdateMode: 0
-    m_PreWarmDeltaTime: 0.05
-    m_PreWarmStepCount: 0
+    m_PreWarmDeltaTime: 0.5
+    m_PreWarmStepCount: 10
     m_InitialEventName: OnPlay
 --- !u!114 &8926484042661616030
 MonoBehaviour:
@@ -632,7 +632,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":-5.0,"y":-2.0,"z":-1.5}}'
+      m_SerializableObject: '{"position":{"x":-5.0,"y":-2.5,"z":-1.5}}'
     m_Space: 0
   m_Property:
     name: A
@@ -802,7 +802,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":2.0,"y":2.0,"z":1.5}}'
+      m_SerializableObject: '{"position":{"x":0.0,"y":2.5,"z":1.5}}'
     m_Space: 0
   m_Property:
     name: B
