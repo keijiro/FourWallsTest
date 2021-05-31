@@ -201,7 +201,10 @@ VisualEffect:
     m_Vector2f:
       m_Array: []
     m_Vector3f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0, y: 7.81, z: 0}
+        m_Name: Offset
+        m_Overridden: 1
     m_Vector4f:
       m_Array: []
     m_Uint:
