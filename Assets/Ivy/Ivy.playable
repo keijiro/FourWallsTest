@@ -26,7 +26,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 2
+  take: 4
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -165,7 +165,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -5664248071106214100}
-    m_Duration: 60
+    m_Duration: 40
     m_TimeScale: 1
     m_ParentTrack: {fileID: -957500520532921119}
     m_EaseInDuration: 0
