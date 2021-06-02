@@ -103,8 +103,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: -761
     y: -654
-    width: 4448
-    height: 2167
+    width: 4430
+    height: 2260
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d4c867f6b72b714dbb5fd1780afe208, type: 3}
-  m_Name: Night
+  m_Name: Stars
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
@@ -169,7 +169,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.0,"y":7.300000190734863,"z":0.0}'
+      m_SerializableObject: '{"x":0.0,"y":8.0,"z":0.0}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -186,7 +186,7 @@ VisualEffectResource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Night
+  m_Name: Stars
   m_Graph: {fileID: 114350483966674976}
   m_Infos:
     m_RendererSettings:
@@ -197,8 +197,8 @@ VisualEffectResource:
       lightProbeUsage: 0
     m_CullingFlags: 3
     m_UpdateMode: 0
-    m_PreWarmDeltaTime: 0.03
-    m_PreWarmStepCount: 100
+    m_PreWarmDeltaTime: 0.1
+    m_PreWarmStepCount: 50
     m_InitialEventName: OnPlay
 --- !u!114 &8926484042661614555
 MonoBehaviour:
@@ -1140,7 +1140,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":-4.0,"y":-1.2000000476837159,"z":-4.0}}'
+      m_SerializableObject: '{"position":{"x":-12.0,"y":-3.0,"z":-4.0}}'
     m_Space: 0
   m_Property:
     name: A
@@ -1310,7 +1310,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":4.0,"y":1.2000000476837159,"z":4.0}}'
+      m_SerializableObject: '{"position":{"x":12.0,"y":3.0,"z":4.0}}'
     m_Space: 0
   m_Property:
     name: B
@@ -3521,7 +3521,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.5058823823928833},{"color":{"r":0.7490196228027344,"g":0.14733776450157166,"b":0.0,"a":1.0},"time":0.7764706015586853}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.43529412150382998},{"color":{"r":0.8113207817077637,"g":0.5493478775024414,"b":0.22579210996627809,"a":1.0},"time":0.6088197231292725},{"color":{"r":0.7547169923782349,"g":0.1472957581281662,"b":0.032039858400821689,"a":1.0},"time":0.7323567271232605}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: Color
@@ -4308,7 +4308,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.5471698045730591,"g":0.5471698045730591,"b":0.5471698045730591,"a":1.0},"time":0.0},{"color":{"r":1.3041188716888428,"g":1.3041188716888428,"b":1.3041188716888428,"a":1.0},"time":0.652948796749115},{"color":{"r":33.896759033203128,"g":33.896759033203128,"b":33.896759033203128,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.5471698045730591,"g":0.5471698045730591,"b":0.5471698045730591,"a":1.0},"time":0.0},{"color":{"r":1.3041188716888428,"g":1.3041188716888428,"b":1.3041188716888428,"a":1.0},"time":0.652948796749115},{"color":{"r":102.75575256347656,"g":102.75575256347656,"b":102.75575256347656,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: Color
@@ -5924,7 +5924,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.5
+      m_SerializableObject: 1
     m_Space: 2147483647
   m_Property:
     name: A
@@ -5958,7 +5958,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 1.5
+      m_SerializableObject: 2
     m_Space: 2147483647
   m_Property:
     name: B
@@ -6082,7 +6082,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.0,"y":7.300000190734863,"z":0.0}'
+      m_SerializableObject: '{"x":0.0,"y":8.0,"z":0.0}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -7098,7 +7098,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 7
+      m_SerializableObject: 10
     m_Space: 2147483647
   m_Property:
     name: Rate
@@ -7529,7 +7529,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":-4.0,"y":0.0,"z":-4.0}}'
+      m_SerializableObject: '{"position":{"x":-4.0,"y":-4.0,"z":-4.0}}'
     m_Space: 0
   m_Property:
     name: A
@@ -7699,7 +7699,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":4.0,"y":1.2000000476837159,"z":4.0}}'
+      m_SerializableObject: '{"position":{"x":4.0,"y":4.0,"z":4.0}}'
     m_Space: 0
   m_Property:
     name: B
@@ -10138,7 +10138,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.1
+      m_SerializableObject: 0.15
     m_Space: 2147483647
   m_Property:
     name: A
@@ -10172,7 +10172,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.3
+      m_SerializableObject: 0.4
     m_Space: 2147483647
   m_Property:
     name: B
