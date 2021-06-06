@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 2
+  take: 7
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -24,17 +24,17 @@ MonoBehaviour:
     m_FileName: Confetti
   outputFormat: 0
   videoBitRateMode: 2
-  captureAlpha: 0
+  captureAlpha: 1
   containerFormatSelected: 2
   encoderSelected: 1
-  encoderPresetSelected: 2
-  encoderPresetSelectedName: Apple ProRes 422 HQ (apch)
+  encoderPresetSelected: 1
+  encoderPresetSelectedName: Apple ProRes 4444 (ap4h)
   encoderPresetSelectedOptions: 
   encoderPresetSelectedSuffixes: .mov
   encoderColorDefinitionSelected: 0
   encoderCustomOptions: 
   m_ImageInputSelector:
-    m_Selected: gameViewInputSettings
+    m_Selected: cameraInputSettings
     gameViewInputSettings:
       m_OutputResolution:
         m_CustomWidth: 1024
@@ -50,8 +50,8 @@ MonoBehaviour:
       m_OutputResolution:
         m_CustomWidth: 1024
         m_CustomHeight: 1024
-        imageHeight: 0
-        maxSupportedHeight: 4320
+        imageHeight: 1080
+        maxSupportedHeight: 2160
         m_AspectRatio:
           m_CustomAspectX: 1
           m_CustomAspectY: 1
