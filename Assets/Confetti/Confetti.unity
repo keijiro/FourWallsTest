@@ -134,12 +134,12 @@ GameObject:
   - component: {fileID: 14317554}
   - component: {fileID: 14317553}
   m_Layer: 0
-  m_Name: Profile
+  m_Name: Profile (Override)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &14317553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGlobal: 1
-  priority: 0
+  priority: 1
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 2d87818eecb9c427782d5ee506d8c6be, type: 2}
@@ -170,7 +170,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &189969225
 GameObject:
@@ -293,7 +293,7 @@ VisualEffect:
   m_Asset: {fileID: 8926484042661614526, guid: 765d5478012fd49c688c73cc43727eeb, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
-  m_StartSeed: 251546540
+  m_StartSeed: 654046348
   m_ResetSeedOnPlay: 0
   m_ResourceVersion: 1
   m_PropertySheet:
@@ -302,8 +302,11 @@ VisualEffect:
       - m_Value: 0.5
         m_Name: Size
         m_Overridden: 1
-      - m_Value: 0.84995353
+      - m_Value: 0
         m_Name: Spawn Rate
+        m_Overridden: 1
+      - m_Value: 1.2
+        m_Name: Pitch
         m_Overridden: 1
     m_Vector2f:
       m_Array: []
@@ -514,8 +517,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.1
-  far clip plane: 100
+  near clip plane: 0.01
+  far clip plane: 30
   field of view: 24.616034
   orthographic: 0
   orthographic size: 5
@@ -560,7 +563,7 @@ GameObject:
   - component: {fileID: 1394262587}
   - component: {fileID: 1394262586}
   m_Layer: 0
-  m_Name: Profile
+  m_Name: Profile (Aqua)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -596,5 +599,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
